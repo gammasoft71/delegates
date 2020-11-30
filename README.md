@@ -16,7 +16,7 @@
 
 # Features
 
-* Single an multicast delegate
+* Single and multicast delegate
 * event, event_args and event_handler are base classes for eventing.
 * action represents a delegate that has variable parameters and does not return a value.
 * func represents a delegate that has variables parameters and returns a value of the type specified by the result_t type.
