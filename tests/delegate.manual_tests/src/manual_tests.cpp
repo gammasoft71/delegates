@@ -1,9 +1,9 @@
-#include <xtd/xtd.delegates>
+#include <delegates/delegates>
 #include <iostream>
 #include <string>
 
 using namespace std;
-using namespace xtd;
+using namespace delegates;
 
 int main() {
   delegate<void()> d1;

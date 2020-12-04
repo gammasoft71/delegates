@@ -2,8 +2,7 @@
 
 #include "delegate.h"
 
-/// @brief The xtd namespace contains all fundamental classes to access Hardware, Os, System, and more.
-namespace xtd {
+namespace delegates {
   /// @brief Represents a delegate that has variable parameters and does not return a value.
   template<typename... arguments_t>
   using action = delegate <void(arguments_t...)>;

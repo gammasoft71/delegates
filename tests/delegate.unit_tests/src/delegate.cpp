@@ -1,8 +1,8 @@
-#include <xtd/xtd.delegates>
+#include <delegates/delegates>
 #include <xtd/xtd.tunit>
 
 using namespace std;
-using namespace xtd;
+using namespace delegates;
 using namespace xtd::tunit;
 
 namespace unit_tests {

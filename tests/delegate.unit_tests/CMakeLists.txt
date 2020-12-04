@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.3)
 
 # Project
-project(xtd.delegates.unit_tests)
+project(delegates.unit_tests)
 set(SOURCES
   src/main.cpp 
   src/delegate.cpp
@@ -14,8 +14,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # Target
 add_executable(${PROJECT_NAME} ${SOURCES})
-target_link_libraries(${PROJECT_NAME} xtd.delegates xtd.tunit)
-set_target_properties(${PROJECT_NAME} PROPERTIES FOLDER "xtd/tests")
+target_link_libraries(${PROJECT_NAME} delegates xtd.tunit)
+set_target_properties(${PROJECT_NAME} PROPERTIES FOLDER "delegates/tests")
 
 # Tests
 add_test(NAME ${PROJECT_NAME} COMMAND $<TARGET_FILE_NAME:${PROJECT_NAME}> WORKING_DIRECTORY $<TARGET_FILE_DIR:${PROJECT_NAME}>)

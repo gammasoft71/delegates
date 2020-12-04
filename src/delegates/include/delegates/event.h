@@ -1,7 +1,6 @@
 #pragma once
 
-/// @brief The xtd namespace contains all fundamental classes to access Hardware, Os, System, and more.
-namespace xtd {
+namespace delegates {
   template<typename object_t, typename handler_t>
   class event : protected handler_t {
     friend object_t;

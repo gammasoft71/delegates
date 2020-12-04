@@ -2,8 +2,7 @@
 
 #include <functional>
 
-/// @brief The xtd namespace contains all fundamental classes to access Hardware, Os, System, and more.
-namespace xtd {
+namespace delegates {
 /// @brief Represents class that use to determine one of non const overloaded methods.
   template <typename... args_t>
   struct non_const_overload {
