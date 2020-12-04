@@ -2,7 +2,7 @@
 # Project related configuration options
 #---------------------------------------------------------------------------
 
-PROJECT_NAME           = "xtd.delegates - Reference Guide"
+PROJECT_NAME           = "delegates - Reference Guide"
 PROJECT_NUMBER         = 0.0.1
 PROJECT_BRIEF          = "Modern c ++ 17 library containing delegate which is a data structure that refers to a static method or to a class instance and an instance method of that class."
 PROJECT_LOGO           = docs/pictures/delegates_doxygen.png
