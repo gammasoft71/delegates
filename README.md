@@ -1,10 +1,16 @@
-[![delegates](docs/pictures/header.png)](https://gammasoft71.wixsite.com/gammasoft)
+# delegates
 
-[![Build Status](https://travis-ci.org/gammasoft71/delegates.svg?branch=master)](https://travis-ci.org/gammasoft71/delegates)
-[![Build status](https://ci.appveyor.com/api/projects/status/6483r6dkpixsyxs9?svg=true)](https://ci.appveyor.com/project/gammasoft71/xtd-delegates)
-[![Reference Guide](https://img.shields.io/badge/code-Reference_Guide-brightgreen.svg)](https://codedocs.xyz/gammasoft71/delegates/)
-[![Website](https://img.shields.io/badge/web-gammasoft-brightgreen.svg)](https://gammasoft71.wixsite.com/gammasoft)
-[![license](https://img.shields.io/github/license/gammasoft71/delegates.svg)](LICENSE.md)
+**Modern c++17 library containing multicast delegate and event classes on Windows, macOS, Linux, iOS and android.**
+
+[![delegates](docs/pictures/delegates_header.png)](https://gammasoft71.wixsite.com/delegates)
+
+## Continuous Integration build status
+
+| Operating system | Status                                                                                                                                              |
+|------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+| Windows          | [![Build status](https://ci.appveyor.com/api/projects/status/6483r6dkpixsyxs9?svg=true)](https://ci.appveyor.com/project/gammasoft71/xtd-delegates) |
+| macOS            | [![Build Status](https://travis-ci.org/gammasoft71/delegates.svg?branch=master)](https://travis-ci.org/gammasoft71/delegates)                       |
+| Linux            | [![Build Status](https://travis-ci.org/gammasoft71/delegates.svg?branch=master)](https://travis-ci.org/gammasoft71/delegates)                       |
 
 # Features
 
@@ -15,7 +21,11 @@
 * predicate represents a delagate that defines a set of criteria and determines whether the specified object meets those criteria.
 * overload represents class that use to determine one of const and non const overloaded methods.
 
-For more information see [Documentation](docs) and [Reference guide](https://codedocs.xyz/gammasoft71/delegates).
+For more information see:
+* [website](https://gammasoft71.wixsite.com/delegates) 
+* [markdown documentations](docs/home.md)
+* [sources](https://github.com/gammasoft71/delegates)
+* [Reference Guide](https://codedocs.xyz/gammasoft71/delegates/)
 
 # Examples
 
