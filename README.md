@@ -31,7 +31,7 @@ For more information see:
 
 The classic first application 'Hello World'.
 
-src/delegates_hello_world.cpp:
+delegates_hello_world.cpp:
 
 ```c++
 #include <delegates/delegates>
@@ -39,7 +39,7 @@ src/delegates_hello_world.cpp:
 #include <string>
 
 using namespace std;
-using namespace xtd;
+using namespace delegates;
 
 int main() {
   delegate<void(const string& str)> write_line;
@@ -63,7 +63,7 @@ cmake_minimum_required(VERSION 3.3)
 
 project(delegates_hello_world)
 find_package(delegates REQUIRED)
-add_executable(${PROJECT_NAME} src/delegates_hello_world.cpp)
+add_executable(${PROJECT_NAME} delegates_hello_world.cpp)
 target_link_libraries(${PROJECT_NAME} delegates)
 ```
 
