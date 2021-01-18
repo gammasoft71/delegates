@@ -67,9 +67,8 @@ add_executable(${PROJECT_NAME} delegates_hello_world.cpp)
 target_link_libraries(${PROJECT_NAME} delegates)
 ```
 
-For more examples see [examples](examples)
+## Getting Started
 
-# Download and install
-
-Before running examples you must download and install delegates. To download and install it read Downloads file.
-
+* [Installation](docs/downloads.md) provides download and install documentation.
+* [Portability](docs/portability.md) provides information about C++, libraries dependency, Operating System suported, Compilators and Devepment Environment tools.
+* [Examples](docs/examples.md) provides some examples.
