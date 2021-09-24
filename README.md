@@ -12,7 +12,7 @@
 | macOS            | [![Build Status](https://travis-ci.org/gammasoft71/delegates.svg?branch=master)](https://travis-ci.org/gammasoft71/delegates)                       |
 | Linux            | [![Build Status](https://travis-ci.org/gammasoft71/delegates.svg?branch=master)](https://travis-ci.org/gammasoft71/delegates)                       |
 
-# Features
+## Features
 
 * Single and multicast delegate
 * event, event_args and event_handler are base classes for eventing.
@@ -21,13 +21,13 @@
 * predicate represents a delagate that defines a set of criteria and determines whether the specified object meets those criteria.
 * overload represents class that use to determine one of const and non const overloaded methods.
 
-For more information see:
+### For more information see
 * [website](https://gammasoft71.wixsite.com/delegates) 
 * [markdown documentations](docs/home.md)
 * [sources](https://github.com/gammasoft71/delegates)
 * [Reference Guide](https://codedocs.xyz/gammasoft71/delegates/)
 
-# Examples
+## Examples
 
 The classic first application 'Hello World'.
 
